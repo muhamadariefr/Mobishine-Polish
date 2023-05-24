@@ -15,6 +15,7 @@ window.addEventListener("scroll", () => {
 });
 
 // ORDER ONLINE
+
 if (typeof ooLogError != 'function') {
     var ooLogError = function(error) {
         var req = new XMLHttpRequest();
@@ -58,7 +59,7 @@ try {
     }
     orderOnlineInit(window);
     ooe('setup', 'redirect', 'https://promohebat.orderonline.id');
-    ooe('init', 'promohebat', 'super-engine-degraser', null, 'oo-embed-form-super-engine-degraser-3231', {
+    ooe('init', 'promohebat', 'polish-body-kit', null, 'oo-embed-form-polish-body-kit-7234', {
         "mode": "page",
         "action": "Klik untuk pemesanan",
         "title": "Form Pemesanan",
